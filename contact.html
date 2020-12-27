@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kontaktiraj nas</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="toggle">
+                        <i class="fas fa-bars fa-lg" onClick=dropDownMenu()></i>
+                    </span>
+            <ul class="navi">
+                <li class="nav-link" id="u"><a href="index.html">Početna</a></li>
+                <li class="nav-link" id="u"><a href="about-blacky.html">O našoj crnoj</a></li>
+                <li class="nav-link" id="u"><a href="order.html">Naruči crnu</a></li>
+                <li class="nav-link" id="u"><a href="about-us.html">O nama</a></li>
+                <li class="nav-link" id="u"><a href="contact.html">Kontaktiraj nas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="twist">
+        <p class="pa">
+            Ukoliko imate bilo kakvih primedbi, sugestija, pohvala i čestitki, možete nam pisati preko forme na našem sajtu. A ukoliko nas želite posetiti u našoj kancelariji, nalazimo se u Jove Ilića 185a - kad uđete u lokal, javite se čoveku za šankom, on će znati
+            šta da radi sa vama.
+            <br>Do tada, stojimo Vam na raspolaganju i preko našeg telefona: +381 (11) 39-50-800, kao i na našim društvenim mrežama.</p><br>
+        <div id="wrap">
+            <form class="contactForm" name="contactForm">
+                Vaše ime:<br>
+                <input type="text" name="name" id="i"><br> Vaš i-mejl:<br>
+                <input type="e-mail" name="email" id="e"><br> Vaša poruka:<br>
+                <textarea name="message" id="m" rows="20" cols="20" wrap="hard"></textarea><br> Da li želite da primate naše newsletter-e (baš su slatki)?
+                <div id="radio">
+                    <input type="radio" name="newsletter" value="Da" checked="checked"> Da
+                    <input type="radio" name="newsletter" value="Ne"> Ne
+                </div><br>
+                <div id="cek">Da li ste probali našu kafu?
+                    <input type="checkbox" name="newsletter">
+                </div><br>
+                <input type="submit" onclick="return check()">
+            </form>
+            <div id="map"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="left">
+            <p>&copy CRNO o.d. 2019</p>
+            <a href="http:/facebook.com/petar.milatovic.716" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="http:/www.instagram.com/booriiiis" target="_blank"> <i class="fab fa-instagram"></i></a>
+            <a href="http:/www.linkedin.com/in/ognjennikolic13/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="right">
+            <p><a href="index.html">Početna</a></p>
+            <p><a href="about-blacky.html">O našoj crnoj</a></p>
+            <p><a href="order.html">Naruči crnu</a></p>
+            <p><a href="about-us.html">O nama</a></p>
+            <p><a href="contact.html">Kontaktiraj nas</a></p>
+        </div>
+    </footer>
+</body>
+<script src="js/screenScript.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkZ1i0Grbgprt-wFMqbCphoTlzULMzKak&callback=initMap" async defer></script>
+<script src="js/mapScript.js"></script>
+<script src="https://kit.fontawesome.com/b29c49e560.js" crossorigin="anonymous"></script>
+<script src="js/contactForm.js"></script>
+
+</html>

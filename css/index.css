@@ -1,0 +1,30 @@
+/*TIMER*/
+
+#timer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Coming Soon';
+    font-size: 60pt;
+    color: white;
+    margin-top: 2%;
+}
+
+#SaturdayMessage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Impact';
+    font-size: 30pt;
+    color: white;
+    margin-top: 0%;
+}
+
+#logo {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+}
